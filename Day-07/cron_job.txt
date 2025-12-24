@@ -1,0 +1,4 @@
+# Cron Job Example
+# Runs every minute
+
+* * * * * /bin/bash /home/vaibhav/Shell-Scripting/Day-07/hello_cron.sh
