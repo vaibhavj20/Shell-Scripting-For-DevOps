@@ -23,6 +23,7 @@ echo "----------------------------"
 # removing all
 
 echo "Removing all elements"
+echo "Array length: ${#fruits[@]}"
 unset fruits[@]
 
 for fruit in "${fruits[@]}"; do
@@ -33,3 +34,5 @@ done
 #removed all elements
 
 echo "Removed all elements"
+
+echo "Array length: ${#fruits[@]}"
